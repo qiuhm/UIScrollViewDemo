@@ -19,6 +19,8 @@
 		D47588F8184B6B9200DA20D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47588E0184B6B9200DA20D2 /* UIKit.framework */; };
 		D4758900184B6B9200DA20D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47588FE184B6B9200DA20D2 /* InfoPlist.strings */; };
 		D4758902184B6B9200DA20D2 /* UIScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4758901184B6B9200DA20D2 /* UIScrollViewDemoTests.m */; };
+		D475890E184B6BC000DA20D2 /* txViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D475890D184B6BC000DA20D2 /* txViewController.m */; };
+		D4758911184B6C9D00DA20D2 /* scrollView.png in Resources */ = {isa = PBXBuildFile; fileRef = D4758910184B6C9D00DA20D2 /* scrollView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D47588FD184B6B9200DA20D2 /* UIScrollViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D47588FF184B6B9200DA20D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4758901184B6B9200DA20D2 /* UIScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewDemoTests.m; sourceTree = "<group>"; };
+		D475890C184B6BC000DA20D2 /* txViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txViewController.h; sourceTree = "<group>"; };
+		D475890D184B6BC000DA20D2 /* txViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = txViewController.m; sourceTree = "<group>"; };
+		D4758910184B6C9D00DA20D2 /* scrollView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrollView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,8 @@
 		D47588E2184B6B9200DA20D2 /* UIScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D475890F184B6C8D00DA20D2 /* Resources */,
+				D475890B184B6BA700DA20D2 /* Controllers */,
 				D47588EB184B6B9200DA20D2 /* txAppDelegate.h */,
 				D47588EC184B6B9200DA20D2 /* txAppDelegate.m */,
 				D47588EE184B6B9200DA20D2 /* Images.xcassets */,
@@ -142,6 +149,23 @@
 				D47588FE184B6B9200DA20D2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D475890B184B6BA700DA20D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D475890C184B6BC000DA20D2 /* txViewController.h */,
+				D475890D184B6BC000DA20D2 /* txViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D475890F184B6C8D00DA20D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4758910184B6C9D00DA20D2 /* scrollView.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4758911184B6C9D00DA20D2 /* scrollView.png in Resources */,
 				D47588E7184B6B9200DA20D2 /* InfoPlist.strings in Resources */,
 				D47588EF184B6B9200DA20D2 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +267,7 @@
 			files = (
 				D47588ED184B6B9200DA20D2 /* txAppDelegate.m in Sources */,
 				D47588E9184B6B9200DA20D2 /* main.m in Sources */,
+				D475890E184B6BC000DA20D2 /* txViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  txAppDelegate.h
+//  txViewController.h
 //  UIScrollViewDemo
 //
 //  Created by tingxuan.qhm on 13-12-1.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "txViewController.h"
 
-@interface txAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface txViewController : UIViewController<UIScrollViewDelegate>
 
 @end
